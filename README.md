@@ -22,3 +22,7 @@ idade = 12
 idade_esposa = 20
 perfil_vip = 'Flávio Almeida'
 recibos_em_atraso = 30
+  
+* Identação
+4 espaços ou 1 tab
+  
