@@ -26,3 +26,11 @@ recibos_em_atraso = 30
 * Identação
 4 espaços ou 1 tab
   
+# Seguem todas as operadores de comparação:
+
+    < - menor que
+    > - maior que
+    <= - menor ou igual a
+    >= - maior ou igual a
+    == - igual a
+    != - diferente de
