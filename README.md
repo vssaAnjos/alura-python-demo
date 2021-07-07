@@ -51,3 +51,8 @@ else:
 Laço 'enquanto'
 
 while 
+
+## String interpolation
+uso de colchetes dentro de strings para formatar com váriaveis
+Ex:
+    print("Tentativa {} de {}".format(rodada,total_de_tentativas))
