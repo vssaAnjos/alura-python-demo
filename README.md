@@ -26,7 +26,19 @@ recibos_em_atraso = 30
 * Identação
 4 espaços ou 1 tab
   
-# Seguem todas as operadores de comparação:
+## Condição Se
+Estrutura do IF e ELSE
+
+- elif: aceita 
+- else: não aceita condição, apenas a instrunção que será executada
+
+If (condicao): 
+    // faça tal coisa
+elif(condicao):
+    // faça tal coisa
+else:
+    // faça tal coisa
+## Seguem todas as operadores de comparação:
 
     < - menor que
     > - maior que
@@ -34,3 +46,8 @@ recibos_em_atraso = 30
     >= - maior ou igual a
     == - igual a
     != - diferente de
+
+## Laço de repetição
+Laço 'enquanto'
+
+while 
