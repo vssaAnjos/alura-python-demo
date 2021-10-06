@@ -50,7 +50,7 @@ else:
 ## Laço de repetição
 Laço 'enquanto'
 
-while 
+> while (condition):
 
 ## String interpolation
 uso de colchetes dentro de strings para formatar com váriaveis
