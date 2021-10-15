@@ -52,6 +52,17 @@ Laço 'enquanto'
 
 > while (condition):
 
+## Laço for
+```python 
+for contador in range(1, 11):
+    print(contador)
+```
+
+### Função range
+> range(start, stop, [step])
+
+Onde o step é opcional. Como queremos "pular" de 3 em 3, começando com 1 (start) até 10 (stop), podemos escrever:
+
 ## String interpolation
 uso de colchetes dentro de strings para formatar com váriaveis
 Ex:
