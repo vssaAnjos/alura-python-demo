@@ -86,3 +86,22 @@ R$ 1.59
 R$ 1.50
 >>> print("R$ {:.2f}".format(1234.50))
 R$ 1234.50
+
+##  Interpolação - Python 2 vs Python 3 
+Python 3
+> "{} {}".format(1, 2)
+
+Python 2
+> "%d %d" % (1, 2)
+
+Mais exemplos, sempre comparando o Python 2 com Python 3, existem no link: https://pyformat.info/
+
+* No Python 3.6+
+A partir da versão 3.6 do Python, foi adicionado um novo recurso para realizar a interpolação de strings. Esse recurso é chamado de f-strings ou formatted string literals.
+> nome = 'Matheus'
+> print(f'Meu nome é {nome}')
+> Meu nome é Matheus
+* Quando colocamos a letra f antes das aspas, informamos ao Python que estamos utilizando uma f-string. Dessa forma o Python consegue, em tempo de execução, captar a expressão que está entre chaves ({ }) e avaliá-la
+> nome = 'Matheus'
+> print(f'Meu nome é {nome.lower()}')
+> Meu nome é matheus
