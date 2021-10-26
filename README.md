@@ -64,6 +64,25 @@ for contador in range(1, 11):
 Onde o step é opcional. Como queremos "pular" de 3 em 3, começando com 1 (start) até 10 (stop), podemos escrever:
 
 ## String interpolation
+Saiba mais na Documentação: https://docs.python.org/3/library/string.html#formatexamples
 uso de colchetes dentro de strings para formatar com váriaveis
 Ex:
-    print("Tentativa {} de {}".format(rodada,total_de_tentativas))
+>     print("Tentativa {} de {}".format(rodada,total_de_tentativas))
+
+Para utilizar outra ordem dos parametros
+>     print("Tentativa {1} de {0}".format(1,10))
+> Resultado: Tentativa {10} de {1}"
+
+### Formatação de floats
+Primeiro precisamos dizer para ela que estamos recebendo um valor do tipo float, passando :f dentro das chaves da string:
+
+> print("R$ {}".format(1.59))
+> R$ 1.59
+
+Para formatar as casas decimais depois do ponto
+> >>> print("R$ {:.2f}".format(1.59))
+R$ 1.59
+> >>> print("R$ {:.2f}".format(1.5))
+R$ 1.50
+>>> print("R$ {:.2f}".format(1234.50))
+R$ 1234.50
