@@ -98,10 +98,34 @@ Mais exemplos, sempre comparando o Python 2 com Python 3, existem no link: https
 
 * No Python 3.6+
 A partir da versão 3.6 do Python, foi adicionado um novo recurso para realizar a interpolação de strings. Esse recurso é chamado de f-strings ou formatted string literals.
-> nome = 'Matheus'
+> nome = 'Maria'
 > print(f'Meu nome é {nome}')
-> Meu nome é Matheus
+> Meu nome é Maria
 * Quando colocamos a letra f antes das aspas, informamos ao Python que estamos utilizando uma f-string. Dessa forma o Python consegue, em tempo de execução, captar a expressão que está entre chaves ({ }) e avaliá-la
-> nome = 'Matheus'
+> nome = 'Maria'
 > print(f'Meu nome é {nome.lower()}')
-> Meu nome é matheus
+> Meu nome é maria
+
+## Python builtin
+Funções embutidas por padrão no Python
+https://docs.python.org/3/library/functions.html
+
+## Gerando números aleatórios
+```python
+import random
+random.random()
+0.6022965518496559
+```
+Arrendondando um número decimal 
+```python
+numero_random = random.random() * 100
+numero_random
+#resultado sem o round()
+> 18.895629671768187
+int(numero_random)
+#resultado com convertendo para inteiro
+> 18
+round(numero_random)
+#resultado com o round()
+19
+```
