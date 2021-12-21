@@ -129,3 +129,10 @@ round(numero_random)
 #resultado com o round()
 19
 ```
+
+### Outras funções
+Função `abs(valor)` usada para transformar o número em um valor absoluto e positivo.
+```python
+pontos_perdidos = abs(numero_secreto - chute)
+```
+
