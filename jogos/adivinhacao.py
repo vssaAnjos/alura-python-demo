@@ -4,10 +4,12 @@ print("***********************************")
 print("Bem vindo ao Jogo de Adivinhação!")
 print("***********************************")
 
+# Init var
 numero_secreto = random.randrange(1, 101)
 total_de_tentativas = 3
 rodada = 1
 
+# To define level
 print("Qual o nível de dificuldade?")
 print("(1) Fácil (2) Médio (3) Difícil")
 
@@ -20,6 +22,7 @@ elif(nivel == 2):
 else:
     total_de_tentativas = 5
 
+# Validate round
 #print(numero_secreto)
 for rodada in range(1, total_de_tentativas + 1):
     # print("Tentativa ",rodada,"de",total_de_tentativas)
