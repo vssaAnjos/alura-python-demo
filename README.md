@@ -138,8 +138,24 @@ pontos_perdidos = abs(numero_secreto - chute)
 O objetivo dessa função é retornar o número desconsiderando o seu sinal
 
 ### Float division
+Repare que recebemos o valor float 1.5 como resposta. O operador / sempre traz um float, mesmo se não for necessário, por isso ele também é chamado de float division:
 ```python
 >>>  3 / 2
 1.5
 ```
-Repare que recebemos o valor float 1.5 como resposta. O operador / sempre traz um float, mesmo se não for necessário, por isso ele também é chamado de float division:
+
+## Criar Funções
+Definir:
+```python
+## arquivo.py
+def funcao():
+    // todo código aqui
+```
+Chamar:
+```python
+import arquivo
+    arquivo.funcao()
+```
+
+
+
