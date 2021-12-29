@@ -145,6 +145,8 @@ Repare que recebemos o valor float 1.5 como resposta. O operador / sempre traz u
 ```
 
 ## Criar Funções
+>  Lembrando que é consenso usar a nomenclatura snake_case:
+
 Definir:
 ```python
 ## arquivo.py
@@ -156,6 +158,28 @@ Chamar:
 import arquivo
     arquivo.funcao()
 ```
+> Uma função também pode receber parâmetros e retornar algum valor, por exemplo:
+```python
+def soma(a, b):
+     return a + b
+```
+> A função soma recebe dois parâmetros (a e b) e retorna a soma. Ao chamar a função, podemos capturar o retorno:
+```python
+s = soma(3, 4) 
+```
 
+## Função main
+> Essa variável é a __name__, e ela é preenchida com o valor __main__ caso o arquivo seja executado diretamente. 
+> Então é preciso fazer if para verificar se ela está preenchida ou não:
+```python
+# adivinhacao.py
 
+import random
+
+def jogar():
+    # código omitido
+
+if (__name__ == "__main__"):
+    jogar()
+```
 

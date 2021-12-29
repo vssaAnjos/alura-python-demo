@@ -57,3 +57,6 @@ def jogar():
                 print("O número secreto era {}. Você fez {}".format(numero_secreto, pontos))
 
     print("Fim de jogo!")
+
+if (__name__ == "__main__"):
+    jogar()
