@@ -1,11 +1,11 @@
 # alura-python-demo
-Alura - curso Python 3
+Alura | Curso Python 3 parte 1: Introdução à nova versão da linguagem
 
-# Tipagem de dados
+##  Tipagem de dados
 - Função type() para imprimir o tipo da variavel. Ex:
 pais=brasil
 type(mes)
->> class 'str''
+> class 'str''
 
 * Linguagem dinâmica - tipagem dinâmica
 * O tipo da variável vai ser igual ao valor do que ela recebe. 
@@ -182,4 +182,4 @@ def jogar():
 if (__name__ == "__main__"):
     jogar()
 ```
-
+-- teste
