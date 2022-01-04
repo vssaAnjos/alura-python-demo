@@ -1,5 +1,6 @@
 # alura-python-demo
 Alura | Curso Python 3 parte 1: Introdução à nova versão da linguagem
+
 Alura | Curso Python 3 parte 2: Avançando na  linguagem
 
 # Python 3 parte 1
