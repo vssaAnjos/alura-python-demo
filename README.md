@@ -185,6 +185,12 @@ def jogar():
 if (__name__ == "__main__"):
     jogar()
 ```
--- teste
 
 # Python 3 parte 2: Avançando na  linguagem
+### Tipo Booleano 
+O tipo bool para representar verdadeiro (True) e falso (False), por exemplo:
+```python
+>>> existe = True
+>>> type(existe)
+<class 'bool'>
+````
