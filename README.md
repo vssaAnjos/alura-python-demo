@@ -213,3 +213,9 @@ for letra in palavra_secreta:
     if(chute == letra):                                                
         print(letra)
 ````
+
+### Algumas funções de String
+.capitalize = retornar primeira letra como maiscula
+.strip = limpar espaço em branco
+.upper = transformar em letra maiscula
+> Algumas funções foram úteis para verificar se há alguma substring dentro da palavra, como por exemplo: **find, startswith ou endswit**
