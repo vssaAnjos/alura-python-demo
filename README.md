@@ -219,3 +219,28 @@ for letra in palavra_secreta:
 .strip = limpar espaço em branco
 .upper = transformar em letra maiscula
 > Algumas funções foram úteis para verificar se há alguma substring dentro da palavra, como por exemplo: **find, startswith ou endswit**
+
+### Estrutura de dados
+### Lista
+O Python nos oferece uma estrutura de dados que nos permite guardar valores. Essa estrutura é a lista. Para criar uma lista, utilizamos colchetes ([]):
+```python
+>>> valores = []
+>>> type(valores)
+<class 'list'>
+>>> valores = [0,1,2,3,4]
+```
+Funções com lista
+Menor e Maior valor
+```python
+>>> min(valores)
+0
+>>> max(valores)
+4
+```
+Tamanho dos itens da lista
+```python 
+print(len(funcionarios))
+```
+
+> Podemos adicionar elementos ao final da lista com o append, exibir e remover um elemento de determinada posição com o pop, entre diversas outras funcionalidades.
+> Mais funcões especificas de lista  [aqui](https://docs.python.org/3.6/library/stdtypes.html#mutable-sequence-types)
