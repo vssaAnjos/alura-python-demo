@@ -194,3 +194,22 @@ O tipo bool para representar verdadeiro (True) e falso (False), por exemplo:
 >>> type(existe)
 <class 'bool'>
 ````
+
+### Manipulando Strings 
+Usando a função 'find()' para encontrar um caracter numa String. 
+Ex:
+````python
+palavra = "banana"
+type(palavra)
+<class 'str'>
+palavra.find("b")
+0
+````
+#### Interando em uma palavra
+Uma palavra nada mais é do que uma sequência de caracteres. Podemos usar o laço for para iterar.
+Ex:
+```python
+for letra in palavra_secreta:                                          
+    if(chute == letra):                                                
+        print(letra)
+````
