@@ -19,7 +19,6 @@ def jogar():
         index = 0
         for letra in palavra_secreta:
             if(chute.upper() == letra.upper()):    # .upper para comparar tudo como maiscula
-              #  print("Encontrei a letra {} na posição {}".format(letra, index))
                 letras_acertadas[index] = letra
             index = index + 1
 
