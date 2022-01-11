@@ -244,3 +244,19 @@ print(len(funcionarios))
 
 > Podemos adicionar elementos ao final da lista com o append, exibir e remover um elemento de determinada posição com o pop, entre diversas outras funcionalidades.
 > Mais funcões especificas de lista  [aqui](https://docs.python.org/3.6/library/stdtypes.html#mutable-sequence-types)
+
+A função .count()
+> contar o número de ocorrências de um determinado elemento em uma lista é a função .count() das listas:
+````python
+valores = [ 0, 0, 0, 1, 2, 3, 4]
+print(valores.count(0))
+>>> 3
+````
+
+A função .index()
+> retorna o índice da primeira ocorrência de um determinado elemento em uma lista:
+````python
+frutas = ['Banana', 'Morango', 'Maçã', 'Uva', 'Maçã', 'Uva']
+print(frutas.index('Uva'))
+>>> 3
+````
