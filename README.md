@@ -221,8 +221,9 @@ for letra in palavra_secreta:
 > Algumas funções foram úteis para verificar se há alguma substring dentro da palavra, como por exemplo: **find, startswith ou endswit**
 
 ### Estrutura de dados
+> Sequence Types: List, Tuple, range
 ### Lista
-O Python nos oferece uma estrutura de dados que nos permite guardar valores. Essa estrutura é a lista. Para criar uma lista, utilizamos colchetes ([]):
+O Python nos oferece uma estrutura de dados que nos permite guardar valores. Essa estrutura é a lista. Para criar uma lista, utilizamos **colchetes ([])**:
 ```python
 >>> valores = []
 >>> type(valores)
@@ -260,3 +261,19 @@ frutas = ['Banana', 'Morango', 'Maçã', 'Uva', 'Maçã', 'Uva']
 print(frutas.index('Uva'))
 >>> 3
 ````
+### Tupla
+O Python oferece a estrutura tupla, utilizamos com parenteses **( )**
+- Estrutura imutável 
+
+Ex de uso:
+```python
+>>> dias = ("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado")
+>>> type(dias)
+<class 'tuple'>
+```
+
+Principais diferenças entre list e tuple:
+- list usa colchetes [] para inicialização, tuple usa parênteses ()
+- list é mutável, tuple é imutável
+
+> Entre essas sequências, list é a única que é mutável. tuple, str e range são imutáveis. 
