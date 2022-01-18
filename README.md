@@ -4,7 +4,7 @@ Alura | Curso Python 3 parte 1: Introdução à nova versão da linguagem
 Alura | Curso Python 3 parte 2: Avançando na  linguagem
 
 # Python 3 parte 1
-##  Tipagem de dados
+###  Tipagem de dados
 - Função type() para imprimir o tipo da variavel. Ex:
 pais=brasil
 type(mes)
@@ -29,7 +29,7 @@ recibos_em_atraso = 30
 * Identação
 4 espaços ou 1 tab
   
-## Condição Se
+### Condição Se
 Estrutura do IF e ELSE
 
 - elif: aceita 
@@ -41,7 +41,7 @@ elif(condicao):
     // faça tal coisa
 else:
     // faça tal coisa
-## Seguem todas as operadores de comparação:
+###3e Seguem todas as operadores de comparação:
 
     < - menor que
     > - maior que
@@ -83,12 +83,15 @@ Primeiro precisamos dizer para ela que estamos recebendo um valor do tipo float,
 > R$ 1.59
 
 Para formatar as casas decimais depois do ponto
-> >>> print("R$ {:.2f}".format(1.59))
-R$ 1.59
+````python
+>>> print("R$ {:.2f}".format(1.59))
+# R$ 1.59
 > >>> print("R$ {:.2f}".format(1.5))
-R$ 1.50
+# R$ 1.50
 >>> print("R$ {:.2f}".format(1234.50))
-R$ 1234.50
+# R$ 1234.50
+````
+ 
 
 ##  Interpolação - Python 2 vs Python 3 
 Python 3
@@ -276,4 +279,21 @@ Principais diferenças entre list e tuple:
 - list usa colchetes [] para inicialização, tuple usa parênteses ()
 - list é mutável, tuple é imutável
 
-> Entre essas sequências, list é a única que é mutável. tuple, str e range são imutáveis. 
+> Entre essas sequências, list é a única que é mutável. tuple, str e range são imutáveis.
+
+### Tuplas dentro de uma lista
+> instrutor1 = ("Nico", 39)
+
+> instrutor2 = ("Flávio", 37)
+> 
+> instrutores = [instrutor1, instrutor2]
+> 
+> instrutores
+> 
+> [('Nico', 39), ('Flávio', 37)]
+
+### Converter listas em tuplas
+Função Buit-in: 
+> tuple()
+>> palavras = []
+>> nova = tuple(palavras)
