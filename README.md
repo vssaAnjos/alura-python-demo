@@ -267,7 +267,8 @@ print(frutas.index('Uva'))
 ### Tupla
 O Python oferece a estrutura tupla, utilizamos com parenteses **( )**
 - Estrutura imutável 
-
+- Não é possível adicionar novos elementos após a criação
+- Ideial para quando sabemos a quantidade de itens a serem inseridos na criação
 Ex de uso:
 ```python
 >>> dias = ("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado")
@@ -294,6 +295,19 @@ Principais diferenças entre list e tuple:
 
 ### Converter listas em tuplas
 Função Buit-in: 
-> tuple()
->> palavras = []
->> nova = tuple(palavras)
+
+- De lista para Tupla
+```python
+tuple()
+palavras = []
+#Tupla com conteúdo da lista
+nova = tuple(palavras)
+```
+- De Tupla para Lista
+```python
+#Lista com conteúdo da tupla
+list()
+outra = list(nova)
+#Lista fazia
+nova = []
+```
