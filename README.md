@@ -311,3 +311,13 @@ outra = list(nova)
 #Lista fazia
 nova = []
 ```
+
+### Set
+Um set é uma coleção não ordenada de elementos. Cada elemento é único, isso significa que não existem elementos duplicados dentro do set.
+
+### Dictionary
+```python
+instrutores = {'Nico':39, 'Flavio':37,'Marcos:30':40}
+instrutores['Flavio']
+# 37
+```
