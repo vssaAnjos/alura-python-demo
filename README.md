@@ -321,3 +321,9 @@ instrutores = {'Nico':39, 'Flavio':37,'Marcos:30':40}
 instrutores['Flavio']
 # 37
 ```
+
+### List Comprehension
+```python
+palavra_secreta = "banana".upper()
+letras_acertadas = ["_" for letra in palavra_secreta]
+```
