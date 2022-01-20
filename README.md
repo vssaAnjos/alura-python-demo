@@ -335,3 +335,21 @@ for numero in inteiros:
     if numero % 2 == 0:
         pares.append(numero)
 ```
+
+### Arquivos
+- Abrindo arquivos com função built-in: 
+```python
+open()
+```
+- A função recebe um ou mais parâmetros: O nome do arquivo e o modificador de acesso.
+- arquivo = open("arquivo.txt,"a")
+- parametro "a" para 'append'
+- parametro "w" para  'write'
+- parametro "r" para 'read'
+- parametro "+b" para trabalhar com binário:
+  - "wb"
+  - "rb"
+> É uma boa prática fecharmos o arquivo depois de utilizá-lo para escrita ou leitura
+```python
+arquivo.close()
+```
