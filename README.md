@@ -327,3 +327,11 @@ instrutores['Flavio']
 palavra_secreta = "banana".upper()
 letras_acertadas = ["_" for letra in palavra_secreta]
 ```
+Com if:
+```python
+inteiros = [1,3,4,5,7,8,9]
+pares = []
+for numero in inteiros:
+    if numero % 2 == 0:
+        pares.append(numero)
+```
