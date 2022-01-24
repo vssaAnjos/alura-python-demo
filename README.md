@@ -361,3 +361,12 @@ arquivo = open('pessoas.txt', 'r')
 linha = arquivo.readline()
 print(linha)
 ````
+### Função with
+Leitura de arquivos com a função **with**.
+
+Repare que o with usa a função open. Repare também que não fechamos o arquivo. Isso não é mais necessário pois o Python vai cuidar disso e, mesmo com erro, garantirá o fechamento do arquivo! Muito melhor não?
+```python
+with open("palavras.txt") as arquivo:
+    for linha in arquivo:
+        print(linha)
+```
