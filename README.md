@@ -370,3 +370,8 @@ with open("palavras.txt") as arquivo:
     for linha in arquivo:
         print(linha)
 ```
+
+### Sobre funções
+1- Uma função é um bloco de código que pode ser guardado, para ser chamado assim que desejarmos, contanto que saibamos seu nome. Contudo, não é necessário sabermos a sua implementação.
+2- A seguinte declaração de função é válida:
+3- Em Python, a convenção é criarmos funções no padrão snake_case, isto é, cada palavra é iniciada com letras minúsculas e separadas por um underscore (_). 
