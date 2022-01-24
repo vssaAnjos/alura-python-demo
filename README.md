@@ -336,6 +336,7 @@ for numero in inteiros:
         pares.append(numero)
 ```
 
+
 ### Arquivos
 - Abrindo arquivos com função built-in: 
 ```python
@@ -353,3 +354,10 @@ open()
 ```python
 arquivo.close()
 ```
+
+- Função **readline()** para ler apenas uma linha do arquivo:
+````python
+arquivo = open('pessoas.txt', 'r')
+linha = arquivo.readline()
+print(linha)
+````
