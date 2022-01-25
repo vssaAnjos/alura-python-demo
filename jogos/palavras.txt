@@ -2,3 +2,6 @@ morango
 maça
 banana
 melancia
+cupuaçu
+jaca
+laranja
