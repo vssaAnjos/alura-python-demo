@@ -6,11 +6,11 @@ def jogar():
     imprimir_mensagem_inicial()
     palavra_secreta = gerar_palavra_secreta()
     letras_acertadas = inicializa_letras_acertadas(palavra_secreta)
+    print(letras_acertadas)
 
     enforcou = False
     acertou = False
     erros = 0
-    print(letras_acertadas)
 
     # Enquanto é True e True = não enforcou e não acertou
     while (not acertou and not enforcou):
@@ -24,6 +24,7 @@ def jogar():
 
         enforcou = (erros == 7)
         acertou = ("_" not in letras_acertadas)
+
         print(letras_acertadas)
 
     if (acertou):
@@ -39,8 +40,8 @@ def imprimir_mensagem_inicial():
     print("*********************************")
 
 
-def gerar_palavra_secreta():
-    arquivo = open("palavras.txt", "r")
+def gerar_palavra_secreta(nome_arquivo="palavras.txt"):
+    arquivo = open(nome_arquivo, "r")
     palavras = []
     for linha in arquivo:
         linha = linha.strip()
