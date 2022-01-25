@@ -1,8 +1,7 @@
 # alura-python-demo
-Alura | Curso Python 3 parte 1: Introdução à nova versão da linguagem
-
-Alura | Curso Python 3 parte 2: Avançando na  linguagem
-
+> Notas de aula dos Cursos Alura sobre Python 3
+- Alura | Curso Python 3 parte 1: Introdução à nova versão da linguagem 
+- Alura | Curso Python 3 parte 2: Avançando na  linguagem
 # Python 3 parte 1
 ###  Tipagem de dados
 - Função type() para imprimir o tipo da variavel. Ex:
