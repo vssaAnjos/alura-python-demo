@@ -313,6 +313,11 @@ nova = []
 
 ### Set
 Um set é uma coleção não ordenada de elementos. Cada elemento é único, isso significa que não existem elementos duplicados dentro do set.
+Exemplo de criação:
+```python
+colecao = {11122233344, 22233344455, 33344455566}
+```
+Repare que usamos {} chaves para declarar os elementos iniciais
 
 ### Dictionary
 ```python
@@ -320,6 +325,7 @@ instrutores = {'Nico':39, 'Flavio':37,'Marcos:30':40}
 instrutores['Flavio']
 # 37
 ```
+Repare que usamos as chaves {} (como se fosse um set), mas sempre tem em pares.
 
 ### List Comprehension
 ```python
